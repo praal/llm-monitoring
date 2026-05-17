@@ -1,0 +1,6 @@
+Rule 1: If you open a door at step t, then you must go through that door at step t+1. You may not delay or do any other action in between.
+Rule 2: If you go into a room at step t, then at step t+1 you must look around to familiarize yourself with your surroundings.
+Rule 3: You must not look around twice in a row.
+Rule 4: You may only go to the following rooms: living room, kitchen and hallway. Going to any other room is forbidden.
+Rule 5: You must measure the temperature of substance B with a thermometer before you put substance B into a box. Putting substance B into a box before measuring its temperature is a violation.
+

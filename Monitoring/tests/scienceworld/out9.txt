@@ -1,0 +1,66 @@
+Step 1: go hallway
+ Step 2: open door
+ Step 3: go living room
+ Step 4: go door
+ Step 5: look around
+ Step 6: open door to the living room
+ Step 7: go living room
+ Step 8: look around
+ Step 9: inventory
+ Step 10: look at table
+ Step 11: look in purple box
+ Step 12: look around
+ Step 13: go hallway
+ Step 14: go living room
+ Step 15: look around
+ Step 16: go hallway
+ Step 17: go living room
+ Step 18: go hallway
+ Step 19: look around
+ Step 20: go living room
+ Step 21: inventory
+ Step 22: go hallway
+ Step 23: go living room
+ Step 24: go hallway
+ Step 25: go living room
+ Step 26: look around
+ Step 27: inventory
+ Step 28: look at table
+ Step 29: look around
+ Step 30: go hallway
+ Step 31: go living room
+ Step 32: look around
+ Step 33: go hallway
+ Step 34: go living room
+ Step 35: go hallway
+ Step 36: look around
+ Step 37: go art studio
+ Step 38: go living room
+ Step 39: look around
+ Step 40: go hallway
+ Step 41: go living room
+ Step 42: look around
+ Step 43: look at table
+ Step 44: look around
+ Step 45: go hallway
+ Step 46: go living room
+ Step 47: inventory
+ Step 48: look around
+ Step 49: look at book shelf
+ Step 50: look at couch
+ Step 51: look at chair
+ Step 52: look at unknown substance B
+ Step 53: go hallway
+ Step 54: look around
+ Step 55: go kitchen
+ Step 56: open door to the kitchen
+ Step 57: go kitchen
+ Step 58: look around
+ Step 59: pick up thermometer
+ Step 60: go living room
+ Step 61: go hallway
+ Step 62: go living room
+ Step 63: focus on thermometer
+ Step 64: focus on unknown substance B
+ Step 65: use thermometer on unknown substance B
+ Step 66: move unknown substance B to purple box

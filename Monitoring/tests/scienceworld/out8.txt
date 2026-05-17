@@ -1,0 +1,20 @@
+Step 1: go hallway
+ Step 2: open door
+ Step 3: look around
+ Step 4: go hallway
+ Step 5: look around
+ Step 6: open door to living room
+ Step 7: go living room
+ Step 8: look around
+ Step 9: go hallway
+ Step 10: open door to kitchen
+ Step 11: go kitchen
+ Step 12: look around
+ Step 13: pick up thermometer
+ Step 14: go hallway
+ Step 15: go living room
+ Step 16: focus on thermometer
+ Step 17: focus on unknown substance B
+ Step 18: use thermometer on unknown substance B
+ Step 19: look around
+ Step 20: move unknown substance B to purple box

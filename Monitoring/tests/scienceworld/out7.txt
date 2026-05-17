@@ -1,0 +1,51 @@
+Step 1: go door to the hallway
+ Step 2: open door
+ Step 3: go door to the living room
+ Step 4: go living room
+ Step 5: go to living room
+ Step 6: go living room
+ Step 7: go door to living room
+ Step 8: go to the living room
+ Step 9: go living room
+ Step 10: go door
+ Step 11: look around
+ Step 12: open door to the living room
+ Step 13: go door to the living room
+ Step 14: look around
+ Step 15: inventory
+ Step 16: look around
+ Step 17: inventory
+ Step 18: look around
+ Step 19: inventory
+ Step 20: go door to the hallway
+ Step 21: go door to the living room
+ Step 22: look around
+ Step 23: look around
+ Step 24: look around
+ Step 25: look around
+ Step 26: go door to the hallway
+ Step 27: go door to the living room
+ Step 28: go door to the hallway
+ Step 29: go door to the living room
+ Step 30: look around
+ Step 31: inventory
+ Step 32: look around
+ Step 33: go door to the hallway
+ Step 34: look around
+ Step 35: go door to the living room
+ Step 36: look around
+ Step 37: go door to the hallway
+ Step 38: look around
+ Step 39: go door to the living room
+ Step 40: look around
+ Step 41: go door to the hallway
+ Step 42: look around
+ Step 43: go door to the living room
+ Step 44: look around
+ Step 45: go door to the hallway
+ Step 46: go door to the living room
+ Step 47: look around
+ Step 48: go door to the hallway
+ Step 49: go door to the living room
+ Step 50: look around
+ Step 51: focus on unknown substance B

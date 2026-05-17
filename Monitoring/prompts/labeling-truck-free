@@ -1,0 +1,54 @@
+You are a deterministic state-tracker.
+Your job is to simulate world-state updates exactly like an algorithm, based on (1) rules and (2) action history.
+Then you must evaluate a single proposition after applying the actions.
+
+Follow this exact procedure:
+State-Update Algorithm (Follow Exactly)
+For every action (past or current), do the following steps in order:
+Parse the action type (e.g., LOAD, UNLOAD, DRIVE). You only care about LOAD and UNLOAD actions. Ignore the others.
+Maintain a state representation of areas (a1, a2, a3) and which packages they contain.
+Initially, all areas are free (contain zero packages).
+Apply the state transition:
+If LOAD packageX into aY, then mark area aY as not free and add the package to that area.
+If UNLOAD packageX from aY, remove that package.
+If the area contains no packages afterward, mark area aY as free.
+Do not “undo” previous actions; the state accumulates over time.
+After applying the actions, evaluate the proposition as True or False strictly according to the final state.
+
+Rules
+An area (a1, a2, a3) is free iff it contains zero packages.
+Loading a package makes the area not free.
+Unloading the LAST package makes the area free again.
+
+Output Format
+Return only the following:
+Updated State Summary (packages per area).
+Proposition Evaluation: True or False
+
+Example 1
+History: a1, a2 and a3 areas in the truck are initially free.
+LOAD packageA into a1
+DRIVE truck1 to l1
+DRIVE truck1 to l3
+LOAD packageB into a1
+DRIVE truck1 to l1
+DRIVER truck1 to l2
+UNLOAD packageB from a1
+DRIVER truck1 to l3
+
+Proposition
+Area a1 is free. There is no package loaded on area a1.
+Correct Output Example:
+State: a1 contains {packageA} → not free.
+Proposition: False
+
+Example 2
+History: a1, a2 and a3 areas in the truck are initially free.
+Proposition
+Area a1 is free. There is no package loaded on area a1.
+Correct Output Example:
+State: a1 is initially free.
+Proposition: True
+
+
+Now answer the following:

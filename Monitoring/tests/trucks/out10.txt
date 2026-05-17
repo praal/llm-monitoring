@@ -1,0 +1,73 @@
+1. *DRIVE(truck1, l3, to-l1) [Time: 1]
+2.*LOAD(truck1, package1, a3, l1)
+3.*LOAD(truck1, package6, a2, l1)
+4.*LOAD(truck1, package2, a1, l1)
+5. *DRIVE(truck1, l1, to-l2) [Time: 2]
+6.*UNLOAD(truck1, package2, a1, l2)
+7. *DELIVER(package2, l2) [Time: 2]
+8.*LOAD(truck1, package3, a1, l2)
+9.*LOAD(truck1, package5, a2, l2)
+10.*LOAD(truck1, package7, a3, l2)
+11. *DRIVE(truck1, l2, to-l1) [Time: 3]
+12.*UNLOAD(truck1, package6, a2, l1)
+13. *DELIVER(package6, l1) [Time: 3]
+14.*LOAD(truck1, package8, a2, l1)
+15.*LOAD(truck1, package16, a3, l1)
+16. *DRIVE(truck1, l1, to-l2) [Time: 4]
+17.*UNLOAD(truck1, package3, a1, l2)
+18. *DELIVER(package3, l2) [Time: 4]
+19.*UNLOAD(truck1, package5, a2, l2)
+20. *DELIVER(package5, l2) [Time: 4]
+21.*UNLOAD(truck1, package16, a3, l2)
+22. *DELIVER(package16, l2) [Time: 4]
+23.*LOAD(truck1, package17, a1, l2)
+24.*LOAD(truck1, package18, a2, l2)
+25.*LOAD(truck1, package20, a3, l2)
+26. *DRIVE(truck1, l2, to-l4) [Time: 5]
+27.*UNLOAD(truck1, package20, a3, l4)
+28.*LOAD(truck1, package4, a3, l4)
+29.*LOAD(truck1, package11, a2, l4)
+30.*LOAD(truck1, package19, a1, l4)
+31. *DRIVE(truck1, l4, to-l3) [Time: 6]
+32.*UNLOAD(truck1, package19, a1, l3)
+33. *DELIVER(package19, l3) [Time: 6]
+34.*LOAD(truck1, package9, a1, l3)
+35.*LOAD(truck1, package10, a2, l3)
+36. *DRIVE(truck1, l3, to-l4) [Time: 7]
+37.*UNLOAD(truck1, package11, a2, l4)
+38. *DELIVER(package11, l4) [Time: 7]
+39.*UNLOAD(truck1, package4, a3, l4)
+40. *DELIVER(package4, l4) [Time: 7]
+41.*LOAD(truck1, package12, a1, l4)
+42.*LOAD(truck1, package13, a2, l4)
+43. *DRIVE(truck1, l4, to-l5) [Time: 8]
+44.*UNLOAD(truck1, package12, a1, l5)
+45. *DELIVER(package12, l5) [Time: 8]
+46.*UNLOAD(truck1, package13, a2, l5)
+47. *DELIVER(package13, l5) [Time: 8]
+48.*LOAD(truck1, package14, a1, l5)
+49.*LOAD(truck1, package15, a2, l5)
+50. *DRIVE(truck1, l5, to-l2) [Time: 9]
+51.*UNLOAD(truck1, package18, a2, l2)
+52. *DELIVER(package18, l2) [Time: 9]
+53.*UNLOAD(truck1, package17, a1, l2)
+54. *DELIVER(package17, l2) [Time: 9]
+55.*UNLOAD(truck1, package15, a2, l2)
+56. *DELIVER(package15, l2) [Time: 9]
+57. *DRIVE(truck1, l2, to-l3) [Time: 10]
+58.*UNLOAD(truck1, package10, a2, l3)
+59. *DELIVER(package10, l3) [Time: 10]
+60.*UNLOAD(truck1, package9, a1, l3)
+61. *DELIVER(package9, l3) [Time: 10]
+62. *DRIVE(truck1, l3, to-l1) [Time: 11]
+63.*UNLOAD(truck1, package1, a3, l1)
+64. *DELIVER(package1, l1) [Time: 11]
+65.*UNLOAD(truck1, package8, a2, l1)
+66. *DELIVER(package8, l1) [Time: 11]
+67.*UNLOAD(truck1, package7, a3, l1)
+68. *DELIVER(package7, l1) [Time: 11]
+69. *DRIVE(truck1, l1, to-l2) [Time: 12]
+70.*UNLOAD(truck1, package14, a1, l2)
+71. *DELIVER(package14, l2) [Time: 12]
+72.*UNLOAD(truck1, package20, a3, l2)
+73. *DELIVER(package20, l2) [Time: 12]

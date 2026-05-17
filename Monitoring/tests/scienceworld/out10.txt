@@ -1,0 +1,55 @@
+Step 1: go door to the hallway
+ Step 2: open door
+ Step 3: go door to the living room
+ Step 4: go door
+ Step 5: go living room
+ Step 6: open door
+ Step 7: open door between living room and hallway
+ Step 8: go living room
+ Step 9: open door between hallway and living room
+ Step 10: open door between hallway and living room
+ Step 11: objects
+ Step 12: open door to living room
+ Step 13: go living room
+ Step 14: look around
+ Step 15: look around
+ Step 16: inventory
+ Step 17: go hallway
+ Step 18: go living room
+ Step 19: go hallway
+ Step 20: go kitchen
+ Step 21: open door to kitchen
+ Step 22: go kitchen
+ Step 23: look around
+ Step 24: pick up thermometer
+ Step 25: go living room
+ Step 26: go hallway
+ Step 27: go living room
+ Step 28: look around
+ Step 29: focus on thermometer
+ Step 30: focus on unknown substance B
+ Step 31: use thermometer on unknown substance B
+ Step 32: move unknown substance B to purple box
+
+ Step 1: nothing
+ Step 2: nothing
+ Step 3: nothing
+ Step 4: nothing
+ Step 5: nothing
+ Step 6: nothing
+ Step 7: nothing
+ Step 8: nothing
+ Step 9: nothing
+ Step 10: nothing
+ Step 11: nothing
+ Step 12: nothing
+ Step 13: nothing
+ Step 14: nothing
+ Step 15: nothing
+ Step 16: nothing
+ Step 17: nothing
+ Step 18: nothing
+ Step 19: nothing
+ Step 20: nothing
+ Step 21: nothing
+ Step 22: nothing

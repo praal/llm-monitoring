@@ -1,0 +1,2 @@
+Name every ingredient or tool you are using. For example don't say find ingredient. Name each ingredient you want to find.
+Put each action in $action$. For example you should generate: $GET(milk)$ $BAKE(crust)$

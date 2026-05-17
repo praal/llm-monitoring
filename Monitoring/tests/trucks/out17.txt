@@ -1,0 +1,79 @@
+1.*LOAD package1 into a1
+2.*LOAD package6 into a1
+3.*LOAD package16 into a1
+4.*LOAD package20 into a1
+5. *DRIVE truck1 from l3 to-l1
+6. *DELIVER package1 at l1
+7. *DRIVE truck1 from l1 to-l2
+8. *DELIVER package6 at l2
+9. *DRIVE truck1 from l2 to-l2
+10. *DELIVER package16 at l2
+11. *DRIVE truck1 from l2 to-l2
+12. *DELIVER package20 at l2
+13.*LOAD package2 into a1
+14.*LOAD package3 into a1
+15.*LOAD package4 into a1
+16.*LOAD package5 into a1
+17.*LOAD package7 into a1
+18.*LOAD package8 into a1
+19.*LOAD package9 into a1
+20.*LOAD package10 into a1
+21.*LOAD package11 into a1
+22.*LOAD package12 into a1
+23.*LOAD package13 into a1
+24.*LOAD package14 into a1
+25.*LOAD package15 into a1
+26.*LOAD package17 into a1
+27.*LOAD package18 into a1
+28.*LOAD package19 into a1
+29.*LOAD package20 into a1
+30. *DRIVE truck1 from l2 to-l2
+31. *DELIVER package2 at l2
+32. *DRIVE truck1 from l2 to-l2
+33. *DELIVER package3 at l2
+34. *DRIVE truck1 from l2 to-l2
+35. *DELIVER package4 at l2
+36. *DRIVE truck1 from l2 to-l2
+37. *DELIVER package5 at l2
+38. *DRIVE truck1 from l2 to-l2
+39. *DELIVER package7 at l2
+40. *DRIVE truck1 from l2 to-l2
+41. *DELIVER package8 at l2
+42. *DRIVE truck1 from l2 to-l2
+43. *DELIVER package9 at l2
+44. *DRIVE truck1 from l2 to-l2
+45. *DELIVER package10 at l2
+46. *DRIVE truck1 from l2 to-l2
+47. *DELIVER package11 at l2
+48. *DRIVE truck1 from l2 to-l2
+49. *DELIVER package12 at l2
+50. *DRIVE truck1 from l2 to-l2
+51. *DELIVER package13 at l2
+52. *DRIVE truck1 from l2 to-l2
+53. *DELIVER package14 at l2
+54. *DRIVE truck1 from l2 to-l2
+55. *DELIVER package15 at l2
+56. *DRIVE truck1 from l2 to-l2
+57. *DELIVER package17 at l2
+58. *DRIVE truck1 from l2 to-l2
+59. *DELIVER package18 at l2
+60. *DRIVE truck1 from l2 to-l2
+61. *DELIVER package19 at l2
+62. *DRIVE truck1 from l2 to-l4
+63. *DELIVER package11 at l4
+64. *DRIVE truck1 from l4 to-l4
+65. *DELIVER package12 at l4
+66. *DRIVE truck1 from l4 to-l4
+67. *DELIVER package13 at l4
+68. *DRIVE truck1 from l4 to-l4
+69. *DELIVER package14 at l4
+70. *DRIVE truck1 from l4 to-l4
+71. *DELIVER package15 at l4
+72. *DRIVE truck1 from l4 to-l5
+73. *DELIVER package17 at l5
+74. *DRIVE truck1 from l5 to-l5
+75. *DELIVER package18 at l5
+76. *DRIVE truck1 from l5 to-l5
+77. *DELIVER package19 at l5
+78. *DRIVE truck1 from l5 to-l2
+79. *DELIVER package20 at l2

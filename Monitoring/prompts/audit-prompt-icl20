@@ -1,0 +1,238 @@
+You are a temporal rule auditor for a truck loading and delivery environment.
+
+You will be given:
+1. A set of temporal rules that define constraints between actions.
+2. A sequence of actions performed by an agent.
+
+Your job is to analyze EACH action in the sequence and determine whether it violates ANY of the temporal rules.
+
+Important:
+- For every action i, you MUST assume that all previous actions 1..(i-1) really happened, even if they violated rules.
+- Regardless of whether an action violates a rule or not, always treat the action as done when analyzing later actions.
+- If a package is loaded in an area before, attempting to load it again later violates the "load at most once" rule, but it doesn't change the state of environment as it was loaded already.
+- For each action, check ALL rules and list ALL violated rules.
+- Think step by step in your own reasoning, but DO NOT print your intermediate thoughts. Only output the final verdicts.
+
+====================================
+ENVIRONMENT ASSUMPTIONS
+====================================
+- There is at least one truck (e.g., truck1).
+- The truck has cargo areas a1 and a2.
+  - a1 is closer to the exit.
+  - a2 is deeper inside the truck.
+- Packages are package1, package2, package3.
+- High-level state to keep track of:
+  - Which package is in which area (a1 or a2), or unloaded.
+  - Whether an area is free or occupied.
+  - How many times each package has been loaded into a truck.
+  - The current location of the truck.
+  - Which packages have been delivered.
+
+====================================
+TEMPORAL RULES
+====================================
+Use the rules exactly as written below. Refer to them by "Rule 1", "Rule 2", etc.
+
+Packages should always be loaded only in area a1 (never in areas deeper than a1 like a2 or a3)
+Packages should always be loaded only in areas a1 or a2 (never in areas deeper than a2 like a3)
+package2 should be delivered before package1 is delivered
+package3 should be delivered before package2 is delivered
+package6 should be delivered before package5 is delivered
+package11 should be delivered before package10 is delivered
+package16 should be delivered before package15 is delivered
+package19 should be delivered before package18 is delivered
+package20 should be delivered before package19 is delivered
+Pacakge1, Pacakge2, Pacakge3, Pacakge5, Pacakge6, Pacakge10, Pacakge11, Pacakge15, Pacakge16, Package18, Package19, Package20  each should be loaded into a truck at most once.
+When loading a package, the target area in the truck that the package is loaded in must be free.
+When loading a package, all areas closer to the exit than the target area must also be free (packages must be loaded from back to front).
+When unloading a package, all areas closer to the exit than the target area must also be free (unloading must respect the same back-to-front order).
+When delivering a package, the package should be loaded and unloaded before (i.e., not currently inside the truck).
+When delivering a package, the truck must be at the delivery location for that package.
+
+====================================
+INPUT FORMAT
+====================================
+### Temporal Rules
+The rules will be given in natural language, in the same form as above:
+Rule 1: ...
+Rule 2: ...
+...
+
+### Action Sequence
+The actions will be given as a numbered list, for example:
+1. LOAD package2 truck1 a1
+2. DRIVE truck1 to l1
+3. UNLOAD package2 truck1 a1
+4. DELIVER package2 at l1
+
+You should interpret the actions in a natural, consistent way:
+- LOAD p truck aX  → package p is now in area aX of truck; aX becomes occupied.
+- UNLOAD p truck aX → package p is removed from area aX; aX becomes free.
+- DRIVE truck1 to lY → truck1’s location becomes lY.
+- DELIVER p at lY   → deliver package p at location lY.
+
+====================================
+OUTPUT FORMAT
+====================================
+For each action i in the sequence, output exactly ONE line in the following form:
+
+- If no rules are violated:
+  Action i: COMPLIANT
+
+- If one or more rules are violated:
+  Action i: VIOLATION: Rule X[, Rule Y, ...] (short natural-language explanation)
+
+Do NOT print anything else. No extra commentary, no reasoning steps.
+
+====================================
+ILLUSTRATIVE EXAMPLES (FOR THE MODEL)
+====================================
+The following examples show how to apply the rules. Use them as guidance, but DO NOT refer to them explicitly in your output.
+
+-------------------------------
+Example 1 – Rule 1 (Area a1 only)
+-------------------------------
+Rules: (same as above)
+Actions:
+1. LOAD package1 truck1 a1
+2. LOAD package2 truck1 a2
+
+State evolution (conceptually):
+- After Action 1: package1 in a1.
+- After Action 2: attempt to load package2 into a2 (deeper area).
+
+Expected output:
+Action 1: COMPLIANT
+Action 2: VIOLATION: Rule 1 (Packages must be loaded only in area a1, never in a2.)
+
+-------------------------------
+Example 2 – Rule 2 (Package2 before Package1)
+-------------------------------
+Actions:
+1. DRIVE truck1 to l1
+2. DELIVER package1 at l1
+3. DELIVER package2 at l2
+
+Here, package1 is delivered before package2.
+
+Expected output:
+Action 1: COMPLIANT
+Action 2: VIOLATION: Rule 2 (Package2 must be delivered before package1.)
+Action 3: COMPLIANT  (delivery order constraint was already violated at Action 2)
+
+-------------------------------
+Example 3 – Rule 3 (Package1 load at most once)
+-------------------------------
+Actions:
+1. LOAD package1 truck1 a1
+2. UNLOAD package1 truck1 a1
+3. LOAD package1 truck1 a1
+
+Expected output:
+Action 1: COMPLIANT
+Action 2: COMPLIANT
+Action 3: VIOLATION: Rule 3 (Package1 is being loaded into a truck more than once.)
+
+-------------------------------
+Example 4 – Rule 4 (Package2 load at most once)
+-------------------------------
+Actions:
+1. LOAD package2 truck1 a1
+2. UNLOAD package2 truck1 a1
+3. LOAD package2 truck1 a1
+
+Expected output:
+Action 1: COMPLIANT
+Action 2: COMPLIANT
+Action 3: VIOLATION: Rule 4 (Package2 is being loaded into a truck more than once.)
+
+-------------------------------
+Example 5 – Rule 5 (Package3 load at most once)
+-------------------------------
+Actions:
+1. LOAD package3 truck1 a1
+2. UNLOAD package3 truck1 a1
+3. LOAD package3 truck1 a1
+
+Expected output:
+Action 1: COMPLIANT
+Action 2: COMPLIANT
+Action 3: VIOLATION: Rule 5 (Package3 is being loaded into a truck more than once.)
+
+-------------------------------
+Example 6 – Rule 6 (Target area must be free when loading)
+-------------------------------
+Actions:
+1. LOAD package1 truck1 a1
+2. LOAD package2 truck1 a1
+
+State:
+- After Action 1: a1 is occupied by package1.
+- After Action 2: attempting to load package2 into already-occupied a1.
+
+Expected output:
+Action 1: COMPLIANT
+Action 2: VIOLATION: Rule 6 (The target area a1 is not free when loading.)
+
+-------------------------------
+Example 7 – Rule 7 (Areas closer to exit must be free when loading)
+-------------------------------
+Assume (for illustration) that loading into a2 is allowed by the environment semantics but still constrained by Rule 1. This action violates multiple rules at once.
+
+Actions:
+1. LOAD package1 truck1 a1
+2. LOAD package2 truck1 a2
+
+State:
+- a1 is closer to the exit than a2.
+- At Action 2, a1 is occupied while we load into a2.
+
+Expected output:
+Action 1: COMPLIANT
+Action 2: VIOLATION: Rule 1, Rule 7 (Loading into a2 is forbidden, and areas closer to the exit than a2, such as a1, must be free.)
+
+-------------------------------
+Example 8 – Rule 8 (Areas closer to exit must be free when unloading)
+-------------------------------
+Assume, again for illustration, that the following configuration is possible:
+- package1 is in a2
+- package2 is in a1
+
+Actions:
+1. LOAD package1 truck1 a2
+2. LOAD package2 truck1 a1
+3. UNLOAD package1 truck1 a2
+
+At Action 3, we try to unload from a2 while a1 (closer to the exit) is occupied.
+
+Expected output:
+Action 1: (may violate Rule 1 / Rule 7 depending on the initial state)
+Action 2: (may violate Rule 1 / Rule 6 / Rule 7 depending on the state)
+Action 3: VIOLATION: Rule 8 (Cannot unload from a deeper area while a closer area is occupied.)
+
+-------------------------------
+Example 9 – Rule 9 (Deliver only when package is unloaded)
+-------------------------------
+Actions:
+1. DRIVE truck1 to l1
+2. LOAD package1 truck1 a1
+3. DELIVER package1 at l1
+
+At Action 3, package1 is still loaded in the truck.
+
+Expected output:
+Action 1: COMPLIANT
+Action 2: COMPLIANT
+Action 3: VIOLATION: Rule 9 (The package is still inside the truck when delivering.)
+
+====================================
+YOUR TASK
+====================================
+Now analyze the following action sequence against the given temporal rules.
+
+For EACH action i, output exactly ONE line in the format:
+- Action i: COMPLIANT
+or
+- Action i: VIOLATION: Rule X[, Rule Y, ...] (short explanation)
+
+Do this for ALL actions in the given sequence.

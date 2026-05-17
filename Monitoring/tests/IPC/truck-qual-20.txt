@@ -1,0 +1,71 @@
+Objects:
+Truck: truck1
+Packages: package1, package2, package3, package4, package5, package6, package7, package8, package9, package10, package11, package12, package13, package14, package15, package16, package17, package18, package19, package20
+Truck areas: a1, a2, a3, a4
+
+Initial State:
+truck1 is at l3
+all locations are connected to each other
+a1 is free in truck1
+a2 is free in truck1
+a3 is free in truck1
+a4 is free in truck1
+a1 is closer (to exit) than a2, a3 and a4
+a2 is closer (to exit) than a3 and a4
+a3 is closer (to exit) than a4
+all packages are at l1
+
+Goal:
+package1 must be delivered at destination l1
+package2 must be delivered at destination l2
+package3 must be delivered at destination l2
+package4 must be delivered at destination l4
+package5 must be delivered at destination l2
+package6 must be delivered at destination l1
+package7 must be delivered at destination l2
+package8 must be delivered at destination l2
+package9 must be delivered at destination l3
+package10 must be delivered at destination l3
+package11 must be delivered at destination l4
+package12 must be delivered at destination l4
+package13 must be delivered at destination l4
+package14 must be delivered at destination l5
+package15 must be delivered at destination l5
+package16 must be delivered at destination l2
+package17 must be delivered at destination l2
+package18 must be delivered at destination l2
+package19 must be delivered at destination l4
+package20 must be delivered at destination l2
+
+
+Loading area preferences:
+
+Preference p1A: Packages should always be loaded only in area a1 (never in areas deeper than a1)
+Preference p1B: Packages should always be loaded only in areas a1 or a2 (never in areas deeper than a2)
+Preference p1C: Packages should always be loaded only in areas a1, a2, or a3 (never in areas deeper than a3)
+Preference p3A: package6 should reach destination l1 before package5 is delivered to l2
+Preference p3B: package11 should be delivered to l4 before package10 is delivered to l3
+Preference p3C: package16 should be delivered to l2 before package15 reaches destination l5
+Preference p3D: package19 should be delivered to l4 before package18 is delivered to l2
+Preference p3E: package20 should reach destination l2 before package19 is delivered to l4
+
+Pacakge1 should be loaded into a truck at most once
+Pacakge2 should be loaded into a truck at most once
+Pacakge3 should be loaded into a truck at most once
+Pacakge4 should be loaded into a truck at most once
+Pacakge5 should be loaded into a truck at most once
+Pacakge6 should be loaded into a truck at most once
+Pacakge7 should be loaded into a truck at most once
+Pacakge8 should be loaded into a truck at most once
+Pacakge9 should be loaded into a truck at most once
+Pacakge10 should be loaded into a truck at most once
+Pacakge11 should be loaded into a truck at most once
+Pacakge12 should be loaded into a truck at most once
+Pacakge13 should be loaded into a truck at most once
+Pacakge14 should be loaded into a truck at most once
+Pacakge15 should be loaded into a truck at most once
+Pacakge16 should be loaded into a truck at most once
+Pacakge17 should be loaded into a truck at most once
+Pacakge18 should be loaded into a truck at most once
+Pacakge19 should be loaded into a truck at most once
+Pacakge20 should be loaded into a truck at most once

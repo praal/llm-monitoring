@@ -1,0 +1,109 @@
+You are a temporal rule auditor.
+Your job is to check whether a sequence of actions violates any of the given temporal rules.
+You must analyze actions step by step.
+Even if an action violates a rule, it still happens and continues to affect future steps.
+
+What you are given
+1) Temporal Rules
+Rules describe constraints across time (between steps).
+2) Action Sequence
+
+A list of actions taken by an agent:
+1. Action A
+2. Action B
+3. Action C
+...
+
+Your Task
+For each action, decide whether it violates any rule.
+Output one line per action in this exact format:
+Action 1: COMPLIANT
+Action 2: VIOLATION: Rule 3
+Action 3: VIOLATION: Rule 1 - VIOLATION: Rule 4
+If an action violates multiple rules, list all of them.
+
+
+Temporal Rules
+Rule 1 — Door usage
+If you open a door at step t, then you must go through that door at step t+1.
+You may not do any other action in between.
+Rule 2 — Room entry
+If you go into a room at step t, then at step t+1 you must look around.
+Rule 3 — No repeated looking
+You must not look around twice in a row.
+If you look around at step t, you cannot look around at step t+1.
+Rule 4 — Allowed rooms
+You may only go to: living room kitchen hallway Going to any other room is a violation.
+Rule 5 — Substance B
+You must measure the temperature of substance B with a thermometer before you put substance B into a box.
+Putting substance B into a box before measuring is a violation.
+
+Examples
+Rule 1 (Door usage)
+Example 1
+1. open door
+2. go through door
+Output
+Action 1: COMPLIANT
+Action 2: COMPLIANT
+
+Example 2
+1. open door
+2. look around
+Output
+Action 1: COMPLIANT
+Action 2: VIOLATION: Rule 1 (You did not go through the door at step 2.)
+
+Rule 2 (Room entry)
+Example 3
+1. go to kitchen
+2. look around
+Output
+Action 1: COMPLIANT
+Action 2: COMPLIANT
+
+Example 4
+1. go to kitchen
+2. open door
+Output
+Action 1: COMPLIANT
+Action 2: VIOLATION: Rule 2
+
+Rule 3 (No double look)
+Example 5
+1. look around
+2. look around
+Output
+Action 1: COMPLIANT
+Action 2: VIOLATION: Rule 3
+
+Rule 4 (Allowed rooms)
+Example 6
+1. go to bathroom
+Output
+Action 1: VIOLATION: Rule 4
+
+Example 7
+1. go to kitchen
+Output
+Action 1: COMPLIANT
+
+Rule 5 (Substance B)
+Example 8
+1. measure temperature of substance B
+2. put substance B into box
+Output
+Action 1: COMPLIANT
+Action 2: COMPLIANT
+
+Example 7
+1. put substance B into box
+Output
+Action 1: VIOLATION: Rule 5
+
+Now analyze the following action sequence using the rules above.
+Output one line per action, exactly in this format:
+Action X: COMPLIANT
+Action Y: VIOLATION: Rule N
+Action Z: VIOLATION: Rule A - VIOLATION: Rule B
+Do this for all actions in the sequence.

@@ -1,0 +1,59 @@
+Step: 1 Action: examine cookbook
+Step: 2 Action: examine cookbook
+Step: 3 Action: take carrot from counter
+Step: 4 Action: look
+Step: 5 Action: take carrot from counter
+Step: 6 Action: take carrot from counter
+Step: 7 Action: take carrot from counter
+Step: 8 Action: take carrot from counter
+Step: 9 Action: take carrot from counter
+Step: 10 Action: take carrot from counter
+Step: 11 Action: take carrot from counter
+Step: 12 Action: Nothing
+Step: 13 Action: take carrot from counter
+Step: 14 Action: take carrot from counter
+Step: 15 Action: take carrot from counter
+Step: 16 Action: look
+Step: 17 Action: take carrot from counter
+Step: 18 Action: take carrot from counter
+Step: 19 Action: take carrot from counter
+Step: 20 Action: take carrot from counter
+Step: 21 Action: take carrot from counter
+Step: 22 Action: look
+Step: 23 Action: take carrot from counter
+Step: 24 Action: take carrot from counter
+Step: 25 Action: take carrot from counter
+Step: 26 Action: take carrot from counter
+Step: 27 Action: take carrot from counter
+Step: 28 Action: take carrot from counter
+Step: 29 Action: take carrot from counter
+Step: 30 Action: go north
+Step: 31 Action: take carrot from counter
+Step: 32 Action: take carrot from counter
+Step: 33 Action: take carrot from counter
+Step: 34 Action: look
+Step: 35 Action: take carrot from counter
+Step: 36 Action: take carrot from counter
+Step: 37 Action: take carrot from counter
+Step: 38 Action: take carrot from counter
+Step: 39 Action: Nothing
+Step: 40 Action: take carrot from counter
+Step: 41 Action: take carrot from counter
+Step: 42 Action: take carrot from counter
+Step: 43 Action: look
+Step: 44 Action: take carrot from counter
+Step: 45 Action: take carrot from counter
+Step: 46 Action: take carrot from counter
+Step: 47 Action: take carrot from counter
+Step: 48 Action: take carrot from counter
+Step: 49 Action: look
+Step: 50 Action: take carrot from counter
+Step: 51 Action: take carrot from counter
+Step: 52 Action: take carrot from counter
+Step: 53 Action: take carrot from counter
+Step: 54 Action: take carrot from counter
+Step: 55 Action: take carrot from counter
+Step: 56 Action: take carrot from counter
+Step: 57 Action: take carrot from counter
+Step: 58 Action: take carrot from counter
+Step: 59 Action: take carrot from counter

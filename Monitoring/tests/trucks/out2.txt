@@ -1,0 +1,68 @@
+1.*DRIVE truck1 from l3 to-l1
+2.*LOAD package1 into a1 of truck1 at l1
+3.*LOAD package6 into a2 of truck1 at l1
+4.*DRIVE truck1 from l1 to-l3
+5.*UNLOAD package1 from a1 of truck1 at l3 (DELIVER package1 at l1)
+6.*UNLOAD package6 from a2 of truck1 at l3 (DELIVER package6 at l1)
+7.*DRIVE truck1 from l3 to-l1
+8.*LOAD package5 into a1 of truck1 at l1
+9.*LOAD package2 into a2 of truck1 at l1
+10.*LOAD package3 into a3 of truck1 at l1
+11.*LOAD package7 into a4 of truck1 at l1
+12.*DRIVE truck1 from l1 to-l2
+13.*UNLOAD package5 from a1 of truck1 at l2 (DELIVER package5 at l2)
+14.*UNLOAD package2 from a2 of truck1 at l2 (DELIVER package2 at l2)
+15.*UNLOAD package3 from a3 of truck1 at l2 (DELIVER package3 at l2)
+16.*UNLOAD package7 from a4 of truck1 at l2 (DELIVER package7 at l2)
+17.*DRIVE truck1 from l2 to-l1
+18.*LOAD package8 into a1 of truck1 at l1
+19.*LOAD package16 into a2 of truck1 at l1
+20.*LOAD package17 into a3 of truck1 at l1
+21.*LOAD package18 into a4 of truck1 at l1
+22.*DRIVE truck1 from l1 to-l2
+23.*UNLOAD package8 from a1 of truck1 at l2 (DELIVER package8 at l2)
+24.*UNLOAD package16 from a2 of truck1 at l2 (DELIVER package16 at l2)
+25.*UNLOAD package17 from a3 of truck1 at l2 (DELIVER package17 at l2)
+26.*UNLOAD package18 from a4 of truck1 at l2 (DELIVER package18 at l2)
+27.*DRIVE truck1 from l2 to-l1
+28.*LOAD package20 into a1 of truck1 at l1
+29.*DRIVE truck1 from l1 to-l2
+30.*UNLOAD package20 from a1 of truck1 at l2 (DELIVER package20 at l2)
+31.*DRIVE truck1 from l2 to-l3
+32.*LOAD package9 into a1 of truck1 at l3
+33.*LOAD package10 into a2 of truck1 at l3
+34.*DRIVE truck1 from l3 to-l2
+35.*UNLOAD package9 from a1 of truck1 at l2 (DELIVER package9 at l3)
+36.*UNLOAD package10 from a2 of truck1 at l2 (DELIVER package10 at l3)
+37.*DRIVE truck1 from l2 to-l4
+38.*LOAD package11 into a1 of truck1 at l4
+39.*LOAD package4 into a2 of truck1 at l4
+40.*LOAD package12 into a3 of truck1 at l4
+41.*LOAD package13 into a4 of truck1 at l4
+42.*DRIVE truck1 from l4 to-l2
+43.*UNLOAD package11 from a1 of truck1 at l2 (DELIVER package11 at l4)
+44.*UNLOAD package4 from a2 of truck1 at l2 (DELIVER package4 at l4)
+45.*UNLOAD package12 from a3 of truck1 at l2 (DELIVER package12 at l4)
+46.*UNLOAD package13 from a4 of truck1 at l2 (DELIVER package13 at l4)
+47.*DRIVE truck1 from l2 to-l4
+48.*LOAD package19 into a1 of truck1 at l4
+49.*DRIVE truck1 from l4 to-l2
+50.*UNLOAD package19 from a1 of truck1 at l2 (DELIVER package19 at l4)
+51.*DRIVE truck1 from l2 to-l5
+52.*LOAD package14 into a1 of truck1 at l5
+53.*LOAD package15 into a2 of truck1 at l5
+54.*DRIVE truck1 from l5 to-l2
+55.*UNLOAD package14 from a1 of truck1 at l2 (DELIVER package14 at l5)
+56.*UNLOAD package15 from a2 of truck1 at l2 (DELIVER package15 at l5)
+57. *DELIVER package1 at l1
+58. *DELIVER package6 at l1
+59. *DELIVER package9 at l3
+60. *DELIVER package10 at l3
+61. *DELIVER package11 at l4
+62. *DELIVER package4 at l4
+63. *DELIVER package12 at l4
+64. *DELIVER package13 at l4
+65. *DELIVER package14 at l5
+66. *DELIVER package15 at l5
+67. *DELIVER package19 at l4
+68. *DELIVER package20 at l2

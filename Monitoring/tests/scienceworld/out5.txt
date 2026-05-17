@@ -1,0 +1,27 @@
+Step 1: go door to the hallway
+ Step 2: open door to the hallway
+ Step 3: go living room
+ Step 4: look around
+ Step 5: go door to the hallway
+ Step 6: look around
+ Step 7: open door to the living room
+ Step 8: go door to the living room
+ Step 9: look around
+ Step 10: inventory
+ Step 11: look around
+ Step 12: inventory
+ Step 13: look around
+ Step 14: go door to the hallway
+ Step 15: open door to the kitchen
+ Step 16: go door to the kitchen
+ Step 17: look around
+ Step 18: pick up thermometer
+ Step 19: go door to the hallway
+ Step 20: go door to the living room
+ Step 21: focus on thermometer
+ Step 22: focus on unknown substance B
+ Step 23: read unknown substance B
+ Step 24: use thermometer on unknown substance B
+ Step 25: look around
+ Step 26: pick up unknown substance B
+ Step 27: move unknown substance B to purple box

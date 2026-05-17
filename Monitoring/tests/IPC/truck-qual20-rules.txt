@@ -1,0 +1,30 @@
+Packages should always be loaded only in area a1 (never in areas deeper than a1)
+Packages should always be loaded only in areas a1 or a2 (never in areas deeper than a2)
+Packages should always be loaded only in areas a1, a2, or a3 (never in areas deeper than a3)
+
+package2 should be delivered before package1 is delivered
+package3 should be delivered before package2 is delivered
+package6 should be delivered before package5 is delivered
+package11 should be delivered before package10 is delivered
+package16 should be delivered before package15 is delivered
+package19 should be delivered before package18 is delivered
+package20 should be delivered before package19 is delivered
+
+Pacakge1 should be loaded into a truck at most once
+Pacakge2 should be loaded into a truck at most once
+Pacakge3 should be loaded into a truck at most once
+Pacakge5 should be loaded into a truck at most once
+Pacakge6 should be loaded into a truck at most once
+Pacakge10 should be loaded into a truck at most once
+Pacakge11 should be loaded into a truck at most once
+Pacakge15 should be loaded into a truck at most once
+Pacakge16 should be loaded into a truck at most once
+Package18 should be loaded into a truck at most once
+Pacakge19 should be loaded into a truck at most once
+Pacakge20 should be loaded into a truck at most once
+
+When loading a package, the target area in the truck must be free.
+When loading a package, all areas closer to the exit than the target area must also be free (packages must be loaded from back to front)
+When unloading a package, all areas closer to the exit than the target area must also be free (packages must be loaded from back to front)
+When delivering a package, the package should be unloaded before.
+When delivering a package, the truck must be at the delivery location.

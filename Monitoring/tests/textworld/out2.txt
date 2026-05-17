@@ -1,0 +1,46 @@
+Step: 1 Action: go west
+Step: 2 Action: take cookbook from table
+Step: 3 Action: examine cookbook
+Step: 4 Action: take red hot pepper from counter
+Step: 5 Action: examine red hot pepper
+Step: 6 Action: take knife from table
+Step: 7 Action: examine knife
+Step: 8 Action: slice red hot pepper with knife
+Step: 9 Action: cook red hot pepper with stove
+Step: 10 Action: look
+Step: 11 Action: take banana from counter
+Step: 12 Action: examine banana
+Step: 13 Action: dice banana with knife
+Step: 14 Action: cook banana with stove
+Step: 15 Action: take green hot pepper from counter
+Step: 16 Action: examine green hot pepper
+Step: 17 Action: look
+Step: 18 Action: slice green hot pepper with knife
+Step: 19 Action: cook sliced green hot pepper with stove
+Step: 20 Action: look
+Step: 21 Action: goal
+Step: 22 Action: examine fridge
+Step: 23 Action: take red onion from fridge
+Step: 24 Action: examine red onion
+Step: 25 Action: go west
+Step: 26 Action: go south
+Step: 27 Action: go north
+Step: 28 Action: go east
+Step: 29 Action: examine fridge
+Step: 30 Action: examine stove
+Step: 31 Action: examine counter
+Step: 32 Action: go east
+Step: 33 Action: go west
+Step: 34 Action: go west
+Step: 35 Action: go east
+Step: 36 Action: examine fridge
+Step: 37 Action: go west
+Step: 38 Action: go south
+Step: 39 Action: go north
+Step: 40 Action: go west
+Step: 41 Action: go east
+Step: 42 Action: go east
+Step: 43 Action: Nothing
+Step: 44 Action: inventory
+Step: 45 Action: prepare meal
+Step: 46 Action: eat meal

@@ -1,0 +1,15 @@
+Packages should always be loaded only in area a1. Don't load in a2 or a3.
+Packages should always be loaded only in areas a1 or a2. Don't load in a3.
+Packages should always be loaded only in areas a1, a2, or a3.
+package2 should be delivered before package1 is delivered, package2 is not delivered yet!
+package3 should be delivered before package2 is delivered, package3 is not delivered yet!
+package5 should be delivered before package4 is delivered, package6 is not delivered yet!
+Don't load a package in a1. Area a1 is occupied now. First, deliver the package that is in a1.
+Don't load a package in a2. Area a2 is occupied now. First, deliver the package that is in a2.
+Don't load a package in a3. Area a3 is occupied now. First, deliver the package that is in a3.
+When loading a package in a2, a1 must be free. Area a1 is occupied now. First, deliver the package that is in a1.
+When loading a package in a3, a1 must be free. Area a1 is occupied now. First, deliver the package that is in a1.
+When loading a package in a3, a2 must be free. Area a1 is occupied now. First, deliver the package that is in a2.
+When unloading a package from a2, a1 must be free. Area a1 is occupied now. First, deliver the package that is in a1.
+When unloading a package from a3, a1 must be free. Area a1 is occupied now. First, deliver the package that is in a1.
+When unloading a package from a3, a2 must be free. Area a2 is occupied now. First, deliver the package that is in a2.

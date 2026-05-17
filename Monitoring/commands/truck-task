@@ -1,0 +1,10 @@
+Create a high-level plan for completing a task using the allowed actions. you can only execute one action at each step. Separate actions with $$. Put each action in a separate line. Example: $LOAD package1 into area a1 at location l1$.
+Your goals are:
+package1 must be delivered at destination l2.
+package2 must be delivered at destination l2.
+package3 must be delivered at destination l2.
+package4 must be delivered at destination l2.
+package5 must be delivered at destination l2.
+
+each package must be loaded into the truck, unloaded at the destination, and then eventually delivered with "DELIVER" action.
+When all of the packages are delivered, output "DONE" as the action.

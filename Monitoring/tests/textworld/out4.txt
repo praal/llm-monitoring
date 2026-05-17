@@ -1,0 +1,59 @@
+Step: 1 Action: go south
+Step: 2 Action: examine cookbook
+Step: 3 Action: take pork from fridge
+Step: 4 Action: examine pork
+Step: 5 Action: take knife from table
+Step: 6 Action: Nothing
+Step: 7 Action: chop pork with knife
+Step: 8 Action: take red bell pepper from fridge
+Step: 9 Action: examine red bell pepper
+Step: 10 Action: chop red bell pepper with knife
+Step: 11 Action: examine knife
+Step: 12 Action: roast pork
+Step: 13 Action: take pork from fridge
+Step: 14 Action: look
+Step: 15 Action: look
+Step: 16 Action: take carrot from fridge
+Step: 17 Action: examine carrot
+Step: 18 Action: examine cookbook
+Step: 19 Action: go south
+Step: 20 Action: go north
+Step: 21 Action: examine fridge
+Step: 22 Action: examine oven
+Step: 23 Action: examine stove
+Step: 24 Action: examine cookbook
+Step: 25 Action: examine table
+Step: 26 Action: examine fridge
+Step: 27 Action: examine yellow bell pepper
+Step: 28 Action: examine fridge
+Step: 29 Action: examine raw red tuna
+Step: 30 Action: examine cookbook
+Step: 31 Action: examine kitchen
+Step: 32 Action: examine fridge
+Step: 33 Action: examine yellow bell pepper
+Step: 34 Action: examine fridge
+Step: 35 Action: examine raw red tuna
+Step: 36 Action: examine yellow onion
+Step: 37 Action: look
+Step: 38 Action: examine cookbook
+Step: 39 Action: examine oven
+Step: 40 Action: go south
+Step: 41 Action: go north
+Step: 42 Action: take raw red tuna from fridge
+Step: 43 Action: examine red tuna
+Step: 44 Action: examine cookbook
+Step: 45 Action: examine stove
+Step: 46 Action: take yellow bell pepper from fridge
+Step: 47 Action: examine yellow bell pepper
+Step: 48 Action: take knife
+Step: 49 Action: take knife
+Step: 50 Action: take red bell pepper from fridge
+Step: 51 Action: examine fridge
+Step: 52 Action: take yellow onion from fridge
+Step: 53 Action: examine yellow onion: examine the yellow onion
+Step: 54 Action: examine yellow onion
+Step: 55 Action: examine fridge
+Step: 56 Action: examine fridge
+Step: 57 Action: take pork from fridge
+Step: 58 Action: examine fridge
+Step: 59 Action: take pork from fridge

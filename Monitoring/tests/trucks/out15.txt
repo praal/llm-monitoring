@@ -1,0 +1,58 @@
+1. **LOAD package1 into a1**
+2. **LOAD package6 into a1**
+3. **LOAD package16 into a1**
+4. **LOAD package2 into a2**
+5. **LOAD package11 into a2**
+6. **LOAD package19 into a2**
+7. **LOAD package3 into a3**
+8. **LOAD package12 into a3**
+9. **LOAD package14 into a3**
+10. **LOAD package4 into a3**
+11. **LOAD package13 into a3**
+12. **LOAD package7 into a2**
+13. **LOAD package10 into a2**
+14. **LOAD package15 into a2**
+15. **LOAD package8 into a3**
+16. **LOAD package17 into a3**
+17. **LOAD package9 into a3**
+18. **LOAD package5 into a3**
+19. **LOAD package20 into a3**
+20. **DRIVE truck1 from l3 to-l1**
+21. **UNLOAD package1 from a1 at l1**
+22. **DRIVE truck1 from l1 to-l2**
+23. **UNLOAD package2 from a2 at l2**
+24. **UNLOAD package3 from a3 at l2**
+25. **DRIVE truck1 from l2 to-l4**
+26. **UNLOAD package4 from a3 at l4**
+27. **DRIVE truck1 from l4 to-l2**
+28. **UNLOAD package5 from a3 at l2**
+29. **DRIVE truck1 from l2 to-l1**
+30. **UNLOAD package6 from a1 at l1**
+31. **DRIVE truck1 from l1 to-l2**
+32. **UNLOAD package7 from a3 at l2**
+33. **DRIVE truck1 from l2 to-l4**
+34. **UNLOAD package8 from a3 at l4**
+35. **DRIVE truck1 from l4 to-l2**
+36. **UNLOAD package9 from a3 at l2**
+37. **DRIVE truck1 from l2 to-l4**
+38. **UNLOAD package10 from a3 at l4**
+39. **DRIVE truck1 from l4 to-l3**
+40. **UNLOAD package11 from a2 at l3**
+41. **DRIVE truck1 from l3 to-l4**
+42. **UNLOAD package12 from a3 at l4**
+43. **DRIVE truck1 from l4 to-l4**
+44. **UNLOAD package13 from a3 at l4**
+45. **DRIVE truck1 from l4 to-l4**
+46. **UNLOAD package14 from a3 at l4**
+47. **DRIVE truck1 from l4 to-l5**
+48. **UNLOAD package15 from a3 at l5**
+49. **DRIVE truck1 from l5 to-l2**
+50. **UNLOAD package16 from a1 at l2**
+51. **DRIVE truck1 from l2 to-l2**
+52. **UNLOAD package17 from a3 at l2**
+53. **DRIVE truck1 from l2 to-l2**
+54. **UNLOAD package18 from a3 at l2**
+55. **DRIVE truck1 from l2 to-l4**
+56. **UNLOAD package19 from a2 at l4**
+57. **DRIVE truck1 from l4 to-l2**
+58. **UNLOAD package20 from a3 at l2**

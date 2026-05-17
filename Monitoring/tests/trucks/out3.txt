@@ -1,0 +1,71 @@
+1. **DRIVE**: Move truck1 from l3 to-l1.
+2. **LOAD**: Load package1 into area a1 of truck1 at l1.  
+3. **LOAD**: Load package6 into area a2 of truck1 at l1.  
+4. **DRIVE**: Move truck1 from l1 to-l2.  
+5. **UNLOAD**: Unload package6 from area a2 of truck1 at l2.  
+6. **DELIVER**: Deliver package6 at l2.  
+7. **LOAD**: Load package2 into area a1 of truck1 at l2.  
+8. **LOAD**: Load package3 into area a2 of truck1 at l2.  
+9. **LOAD**: Load package5 into area a3 of truck1 at l2.  
+10. **LOAD**: Load package7 into area a4 of truck1 at l2.  
+11. **DRIVE**: Move truck1 from l2 to-l1.  
+12. **UNLOAD**: Unload package1 from area a1 of truck1 at l1.  
+13. **DELIVER**: Deliver package1 at l1.  
+14. **DRIVE**: Move truck1 from l1 to-l2.  
+15. **UNLOAD**: Unload package2 from area a1 of truck1 at l2.  
+16. **DELIVER**: Deliver package2 at l2.  
+17. **UNLOAD**: Unload package3 from area a2 of truck1 at l2.  
+18. **DELIVER**: Deliver package3 at l2.  
+19. **UNLOAD**: Unload package5 from area a3 of truck1 at l2.  
+20. **DELIVER**: Deliver package5 at l2.  
+21. **UNLOAD**: Unload package7 from area a4 of truck1 at l2.  
+22. **DELIVER**: Deliver package7 at l2.  
+23. **DRIVE**: Move truck1 from l2 to-l3.  
+24. **LOAD**: Load package9 into area a1 of truck1 at l3.  
+25. **LOAD**: Load package10 into area a2 of truck1 at l3.  
+26. **DRIVE**: Move truck1 from l3 to-l4.  
+27. **UNLOAD**: Unload package9 from area a1 of truck1 at l4.  
+28. **DELIVER**: Deliver package9 at l4.  
+29. **LOAD**: Load package4 into area a1 of truck1 at l4.  
+30. **LOAD**: Load package11 into area a2 of truck1 at l4.  
+31. **LOAD**: Load package12 into area a3 of truck1 at l4.  
+32. **LOAD**: Load package13 into area a4 of truck1 at l4.  
+33. **DRIVE**: Move truck1 from l4 to-l3.  
+34. **UNLOAD**: Unload package10 from area a2 of truck1 at l3.  
+35. **DELIVER**: Deliver package10 at l3.  
+36. **DRIVE**: Move truck1 from l3 to-l4.  
+37. **UNLOAD**: Unload package4 from area a1 of truck1 at l4.  
+38. **DELIVER**: Deliver package4 at l4.  
+39. **UNLOAD**: Unload package11 from area a2 of truck1 at l4.  
+40. **DELIVER**: Deliver package11 at l4.  
+41. **UNLOAD**: Unload package12 from area a3 of truck1 at l4.  
+42. **DELIVER**: Deliver package12 at l4.  
+43. **UNLOAD**: Unload package13 from area a4 of truck1 at l4.  
+44. **DELIVER**: Deliver package13 at l4.  
+45. **DRIVE**: Move truck1 from l4 to-l5.  
+46. **LOAD**: Load package14 into area a1 of truck1 at l5.  
+47. **LOAD**: Load package15 into area a2 of truck1 at l5.  
+48. **DRIVE**: Move truck1 from l5 to-l2.  
+49. **UNLOAD**: Unload package14 from area a1 of truck1 at l2.  
+50. **DELIVER**: Deliver package14 at l2.  
+51. **LOAD**: Load package16 into area a1 of truck1 at l2.  
+52. **LOAD**: Load package17 into area a2 of truck1 at l2.  
+53. **LOAD**: Load package18 into area a3 of truck1 at l2.  
+54. **LOAD**: Load package20 into area a4 of truck1 at l2.  
+55. **DRIVE**: Move truck1 from l2 to-l5.  
+56. **UNLOAD**: Unload package15 from area a2 of truck1 at l5.  
+57. **DELIVER**: Deliver package15 at l5.  
+58. **DRIVE**: Move truck1 from l5 to-l2.  
+59. **UNLOAD**: Unload package16 from area a1 of truck1 at l2.  
+60. **DELIVER**: Deliver package16 at l2.  
+61. **UNLOAD**: Unload package17 from area a2 of truck1 at l2.  
+62. **DELIVER**: Deliver package17 at l2.  
+63. **UNLOAD**: Unload package18 from area a3 of truck1 at l2.  
+64. **DELIVER**: Deliver package18 at l2.  
+65. **UNLOAD**: Unload package20 from area a4 of truck1 at l2.  
+66. **DELIVER**: Deliver package20 at l2.  
+67. **DRIVE**: Move truck1 from l2 to-l4.  
+68. **LOAD**: Load package19 into area a1 of truck1 at l4.  
+69. **DRIVE**: Move truck1 from l4 to-l2.  
+70. **UNLOAD**: Unload package19 from area a1 of truck1 at l2.  
+71. **DELIVER**: Deliver package19 at l2.  

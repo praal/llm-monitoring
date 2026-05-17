@@ -1,0 +1,8 @@
+You must go through the door!
+You must look around!
+Don't look around more than once in a row!
+You may only go to living room, kitchen, art studio and hallway. Don't go to other rooms!
+You must look at it after picking it up!
+You must look at it after pouring, mixing or dunking!
+Don't pick up, pour or dunk yellow paint. Do that with other paints.
+Don't focus on a wrong object! You can only focus on green paint.

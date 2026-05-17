@@ -1,0 +1,121 @@
+You are a temporal rule auditor. You will be given:
+1. A set of temporal rules that define constraints between actions
+2. A sequence of actions performed by an agent
+
+
+Your job is to analyze each action in the sequence and determine if it violates any of the temporal rules. For each action, output whether it complies with or violates each of the rules. Regardless of whether an action violates a rule or not, consider the action done for the remaining steps.
+
+====================================
+STATE ORACLE (TRUSTED)
+====================================
+Alongside each action, you will be given extra statements describing the true world state
+
+These statements are produced by a trusted labeling function.
+
+Rules:
+• You MUST treat the oracle statements as ground truth.
+• You MUST NOT infer or override them.
+• If the oracle contradicts what you would have inferred, the oracle is correct.
+• Violations are evaluated using this oracle state.
+• You do NOT need to recompute state yourself — use the oracle.
+
+You may only use:
+  (1) the current action,
+  (2) past actions,
+  (3) the oracle statements at this timestep.
+
+When checking a rule at timestep i:
+• Use only the oracle state at timestep i (not later ones).
+• A rule is violated if the oracle + action jointly contradict the rule.
+• Even if the oracle already reflects an illegal state, the violation must be attributed
+  to the action that caused it.
+====================================
+
+## Input Format
+### Temporal Rules
+Rules will be provided in the format:
+Rule 1: [Description of temporal constraint]
+Rule 2: [Description of temporal constraint]
+
+### Action Sequence
+Actions will be provided as a numbered list:
+1. Action 1
+2. Action 2
+
+## Output Format
+For each action in the sequence, output:
+Action [number]: [COMPLIANT/VIOLATION: Rule X]
+
+If an action violates multiple rules, list all violated rules.
+
+## Example
+- Action 1: Action A - COMPLIANT
+- Action 2: Action B - VIOLATION: Rule X
+- Action 4: Action D - VIOLATION: Rule X - VIOLATION: Rule Y
+
+## Task
+Analyze the following action sequence against the given temporal rules, Output the result in one line for each action like: [Action X: Violation]. Do that for ALL actions, each one in a separate line.
+
+Rule 1: If you take an item, you have to examine it in the next step.
+Rule 2: Only take the knife if you will use it to chop, slice, or dice something within the next four steps. If the knife is taken and none of these actions occur by the fourth next step, then the knife was taken unnecessarily and a violation must be reported at that step (not earlier).
+Rule 3: Do not drop things.
+Rule 4: Do not go out of the kitchen. This means you should not use an action that go in some directions. Every go action goes out of kitchen.
+
+## Rule 1: If you take an item, you have to examine it in the next step. [You must check if it is being violated or not]
+## Example1 for Rule1:
+Step: 1 Action: take pot ---[STATE ORACLE]: Taking objects.
+Step: 2 Action: examine pot ---[STATE ORACLE]: Examining objects.
+- Action 1: take pot - COMPLIANT
+- Action 2: examine pot - COMPLIANT
+
+## Example2 for Rule1:
+Step: 1 Action: take pot ---[STATE ORACLE]: Taking objects.
+Step: 2 Action: put pot
+- Action 1: take pot - COMPLIANT
+- Action 2: put pot - VIOLATION: Rule 1
+
+## Rule 2: Only take the knife if you will use it to chop, slice, or dice something within the next four steps. If the knife is taken and none of these actions occur by the fourth next step, then the knife was taken unnecessarily and a violation must be reported at that step (not earlier).
+## Example1 for Rule2:
+Step: 1 Action: take knife ---[STATE ORACLE]: Taking a knife.
+Step: 2 Action: examine knife ---[STATE ORACLE]: Examining objects.
+Step: 3 Action: chop carrot with knife ---[STATE ORACLE]: Using the knife to chop, slice or dice the food.
+- Action 1: take knife - COMPLIANT
+- Action 2: examine knife - COMPLIANT
+- Action 2: chop carrot with knife - COMPLIANT
+
+## Example2 for Rule2:
+Step: 1 Action: take knife. ---[STATE ORACLE]: Taking a knife.
+Step: 2 Action: examine knife. ---[STATE ORACLE]: Examining objects.
+Step: 3 Action: take apple ---[STATE ORACLE]: Taking objects.
+Step: 4 Action: examine apple. ---[STATE ORACLE]: Examining objects.
+Step: 5 Action: take pot ---[STATE ORACLE]: Taking objects.
+- Action 1: take knife - COMPLIANT
+- Action 2: examine knife - COMPLIANT
+- Action 3: take apple - COMPLIANT
+- Action 4: examine apple COMPLIANT
+- Action 5: take pot - VIOLATION : Rule 2
+
+## Rule 3: Do not drop things. [You must check if it is being violated or not]
+## Example1 for Rule3:
+Step: 1 Action: drop knife ---[STATE ORACLE]: Dropping objects.
+- Action 1: drop knife - VIOLATION: Rule 3
+
+## Rule 4: Do not go out of the kitchen. This means you should not use an action that go in some directions. Every go action goes out of kitchen. [You must check if it is being violated or not]
+Example1 for Rule4:
+Step: 1 Action: go north.  ---[STATE ORACLE]: Going to another location.
+- Action 1: go north - VIOLATION: Rule 4
+
+
+====================================
+YOUR TASK
+====================================
+Now analyze the following action sequence against the given temporal rules.
+
+For EACH action i, output exactly ONE line in the format:
+- Action i: COMPLIANT
+or
+- Action i: VIOLATION: Rule X[, Rule Y, ...] (short explanation)
+
+Do this for ALL actions in the following sequence.
+
+

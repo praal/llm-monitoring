@@ -1,0 +1,8 @@
+Rule 1: If you open a door at step t, then you must go through that door at step t+1. You may not delay or do any other action in between.
+Rule 2: If you go into a room at step t, then at step t+1 you must look around to familiarize yourself with your surroundings.
+Rule 3: You must not look around twice in a row. It wastes time.
+Rule 4: You may only go to the following rooms: living room, kitchen, art studio and hallway. Don't go to the bedroom, workshop, or greenhouse.
+Rule 5: When you pick up an object at step t, you must look around or look at it at the next step to see the result.
+Rule 6: When you perform pouring, mixing or dunking actions at step t, you must look around or look at the object at the next step to see the result.
+Rule 7: You should not interact with yellow paint directly. Don't pick it up, pour or dunk it.
+Rule 8: You should only focus on green paint, not other things, not containers.

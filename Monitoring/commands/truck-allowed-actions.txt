@@ -1,0 +1,33 @@
+The Trucks Domain is a logistics domain about moving packages between
+locations by trucks under certain constraints. The domain has four different actions: LOAD, UNLOAD, DRIVE, DELIVER: an action for loading a package
+into a truck, one for unloading a package from a truck, one for moving
+a truck, and finally one for delivering a package. The problem goals require that
+certain packages are at their final destinations by certain deadlines.
+
+
+State Properties:
+Objects (trucks and packages) can be "at" specific locations
+Packages can be "in" a specific area of a truck
+Locations are "connected" to each other (defining valid routes)
+Truck areas can be "free" (empty) or occupied, if they are occupied you can't load packages in them.
+Packages can be marked as "delivered" at a specific location
+Truck areas have a "closer" relationship (a1 is closer to the exit than a2, a2 is closer than a3)
+
+Description of Actions:
+
+LOAD: Load a package into a specific area of a truck
+UNLOAD: Remove a package from a truck area and place it at the current location
+DRIVE: Move a truck from one location to another, advancing time
+DELIVER: Complete the delivery of a package at its destination
+
+Initial State:
+truck1 is at l2
+all locations are connected to each other
+a1 is free in truck1
+a2 is free in truck1
+a3 is free in truck1
+a1 is closer (to exit) than a2 and a3
+a2 is closer (to exit) than a3
+all packages are at l1
+
+

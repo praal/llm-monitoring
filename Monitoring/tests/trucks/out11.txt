@@ -1,0 +1,60 @@
+1. **LOAD package1 into a1**
+2. **LOAD package6 into a1**
+3. **LOAD package11 into a1**
+4. **LOAD package16 into a1**
+5. **LOAD package20 into a1**
+6. **DRIVE truck1 from l3 to-l1**
+7. **DELIVER package1 at l1**
+8. **DRIVE truck1 from l1 to-l2**
+9. **DELIVER package6 at l1**
+10. **DRIVE truck1 from l2 to-l2**
+11. **DELIVER package16 at l2**
+12. **DRIVE truck1 from l2 to-l2**
+13. **DELIVER package20 at l2**
+14. **LOAD package2 into a1**
+15. **LOAD package3 into a1**
+16. **LOAD package4 into a1**
+17. **LOAD package5 into a1**
+18. **LOAD package7 into a1**
+19. **LOAD package8 into a1**
+20. **LOAD package9 into a1**
+21. **LOAD package10 into a1**
+22. **LOAD package12 into a1**
+23. **LOAD package13 into a1**
+24. **LOAD package14 into a1**
+25. **LOAD package15 into a1**
+26. **LOAD package17 into a1**
+27. **LOAD package18 into a1**
+28. **LOAD package19 into a1**
+29. **DRIVE truck1 from l2 to-l2**
+30. **DELIVER package2 at l2**
+31. **DRIVE truck1 from l2 to-l2**
+32. **DELIVER package3 at l2**
+33. **DRIVE truck1 from l2 to-l2**
+34. **DELIVER package4 at l2**
+35. **DRIVE truck1 from l2 to-l2**
+36. **DELIVER package5 at l2**
+37. **DRIVE truck1 from l2 to-l2**
+38. **DELIVER package7 at l2**
+39. **DRIVE truck1 from l2 to-l2**
+40. **DELIVER package8 at l2**
+41. **DRIVE truck1 from l2 to-l2**
+42. **DELIVER package9 at l3**
+43. **DRIVE truck1 from l3 to-l3**
+44. **DELIVER package10 at l3**
+45. **DRIVE truck1 from l3 to-l3**
+46. **DELIVER package12 at l4**
+47. **DRIVE truck1 from l4 to-l4**
+48. **DELIVER package13 at l4**
+49. **DRIVE truck1 from l4 to-l4**
+50. **DELIVER package14 at l4**
+51. **DRIVE truck1 from l4 to-l4**
+52. **DELIVER package15 at l5**
+53. **DRIVE truck1 from l5 to-l5**
+54. **DELIVER package17 at l2**
+55. **DRIVE truck1 from l2 to-l2**
+56. **DELIVER package18 at l2**
+57. **DRIVE truck1 from l2 to-l2**
+58. **DELIVER package19 at l4**
+59. **DRIVE truck1 from l4 to-l4**
+60. **DELIVER package20 at l2**

@@ -1,0 +1,35 @@
+You are a deterministic labeling function.
+Your job is to decide whether the TARGET WORD appears in the TEXT.
+
+MATCHING RULE
+-------------------------------------
+TARGET is TRUE iff it appears as an **exact token** in the token list.
+
+Substrings do NOT count:
+  "go" is not equal to "going"
+  "dice" is not equal to dicing "diced"
+
+1) Tokenize TEXT.
+2) Compare each token to TARGET.
+3) If any token matches → TRUE.
+4) Otherwise → FALSE.
+
+Example
+TEXT: "You examine the counter, then take the knife."
+TARGET: examine
+Output: TRUE
+
+TEXT: "take sliced tomatoes"
+TARGET: slice
+Output: FALSE (sliced is not equal to slice)
+
+-------------------------------------
+OUTPUT FORMAT (strict)
+-------------------------------------
+Return exactly one line:
+TRUE
+or
+FALSE
+
+No extra text.
+

@@ -1,0 +1,17 @@
+These are the available actions:
+          look:                describe the current room
+          goal:                print the goal of this game
+          inventory:           print player's inventory
+          go <dir>:            move the player north, east, south or west
+          examine ...:         examine something more closely
+          drop ...:            drop an object on the floor
+          take ...:            take an object that is on the floor
+          put ... on ...:      place an object on a supporter
+          take ... from ...:   take an object from a container or a supporter
+          cook ... with ...:   cook cookable food with something providing heat
+          slice ... with ...:  slice cuttable food with something sharp
+          chop ... with ...:   chop cuttable food with something sharp
+          dice ... with ...:   dice cuttable food with something sharp
+          prepare meal:        when you are ready combine ingredients from inventory into a meal
+          eat ...:             eat edible food
+

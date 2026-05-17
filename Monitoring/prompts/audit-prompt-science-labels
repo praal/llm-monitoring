@@ -1,0 +1,72 @@
+You are a temporal rule auditor.
+Your job is to check whether a sequence of actions violates any of the given temporal rules.
+You must analyze actions step by step.
+Even if an action violates a rule, it still happens and continues to affect future steps.
+
+What you are given
+1) Temporal Rules
+Rules describe constraints across time (between steps).
+2) Action Sequence
+
+A list of actions taken by an agent:
+1. Action A
+2. Action B
+3. Action C
+...
+
+Your Task
+For each action, decide whether it violates any rule.
+Output one line per action in this exact format:
+Action 1: COMPLIANT
+Action 2: VIOLATION: Rule 3
+Action 3: VIOLATION: Rule 1 - VIOLATION: Rule 4
+If an action violates multiple rules, list all of them.
+
+
+Temporal Rules
+Rule 1 — Door usage
+If you open a door at step t, then you must go through that door at step t+1.
+You may not do any other action in between.
+Rule 2 — Room entry
+If you go into a room at step t, then at step t+1 you must look around.
+Rule 3 — No repeated looking
+You must not look around twice in a row.
+If you look around at step t, you cannot look around at step t+1.
+Rule 4 — Allowed rooms
+You may only go to: living room kitchen hallway Going to any other room is a violation.
+Rule 5 — Substance B
+You must measure the temperature of substance B with a thermometer before you put substance B into a box.
+Putting substance B into a box before measuring is a violation.
+
+====================================
+STATE ORACLE (TRUSTED)
+====================================
+Alongside each action, you will be given extra statements describing the true world state
+
+These statements are produced by a trusted labeling function.
+
+Rules:
+• You MUST treat the oracle statements as ground truth.
+• You MUST NOT infer or override them.
+• If the oracle contradicts what you would have inferred, the oracle is correct.
+• Violations are evaluated using this oracle state.
+• You do NOT need to recompute state yourself — use the oracle.
+
+You may only use:
+  (1) the current action,
+  (2) past actions,
+  (3) the oracle statements at this timestep.
+
+When checking a rule at timestep i:
+• Use only the oracle state at timestep i (not later ones).
+• A rule is violated if the oracle + action jointly contradict the rule.
+• Even if the oracle already reflects an illegal state, the violation must be attributed
+  to the action that caused it.
+====================================
+
+Now analyze the following action sequence using the rules above.
+Output one line per action, exactly in this format:
+Action X: COMPLIANT
+Action Y: VIOLATION: Rule N
+Action Z: VIOLATION: Rule A - VIOLATION: Rule B
+Do this for all actions in the sequence.

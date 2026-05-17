@@ -1,0 +1,59 @@
+Step: 1 Action: examine cookbook
+Step: 2 Action: examine cookbook
+Step: 3 Action: go to fridge and take yellow bell pepper
+Step: 4 Action: look
+Step: 5 Action: take chopped yellow bell pepper from fridge
+Step: 6 Action: take orange bell pepper from fridge
+Step: 7 Action: take red tuna from fridge
+Step: 8 Action: take knife from counter
+Step: 9 Action: take knife from counter
+Step: 10 Action: take knife from counter
+Step: 11 Action: take yellow bell pepper from fridge
+Step: 12 Action: take yellow bell pepper from fridge
+Step: 13 Action: take orange bell pepper from fridge
+Step: 14 Action: take yellow bell pepper from fridge
+Step: 15 Action: take yellow bell pepper from fridge
+Step: 16 Action: take yellow bell pepper from fridge
+Step: 17 Action: take yellow bell pepper from fridge
+Step: 18 Action: take yellow bell pepper from fridge
+Step: 19 Action: take yellow bell pepper from fridge
+Step: 20 Action: take yellow bell pepper from fridge
+Step: 21 Action: take yellow bell pepper from fridge
+Step: 22 Action: take yellow bell pepper from fridge
+Step: 23 Action: take yellow bell pepper from fridge
+Step: 24 Action: take yellow bell pepper from fridge
+Step: 25 Action: take yellow bell pepper from fridge
+Step: 26 Action: take yellow bell pepper from fridge
+Step: 27 Action: take yellow bell pepper from fridge
+Step: 28 Action: take yellow bell pepper from fridge
+Step: 29 Action: take yellow bell pepper from fridge
+Step: 30 Action: take yellow bell pepper from fridge
+Step: 31 Action: take yellow bell pepper from fridge
+Step: 32 Action: take yellow bell pepper from fridge
+Step: 33 Action: take yellow bell pepper from fridge
+Step: 34 Action: take yellow bell pepper from fridge
+Step: 35 Action: take yellow bell pepper from fridge
+Step: 36 Action: take yellow bell pepper from fridge
+Step: 37 Action: take yellow bell pepper from fridge
+Step: 38 Action: take yellow bell pepper from fridge
+Step: 39 Action: take yellow bell pepper from fridge
+Step: 40 Action: take yellow bell pepper from fridge
+Step: 41 Action: take yellow bell pepper from fridge
+Step: 42 Action: take yellow bell pepper from fridge
+Step: 43 Action: take orange bell pepper from fridge
+Step: 44 Action: take yellow bell pepper from fridge
+Step: 45 Action: take yellow bell pepper from fridge
+Step: 46 Action: take yellow bell pepper from fridge
+Step: 47 Action: take yellow bell pepper from fridge
+Step: 48 Action: take yellow bell pepper from fridge
+Step: 49 Action: take yellow bell pepper from fridge
+Step: 50 Action: take yellow bell pepper from fridge
+Step: 51 Action: take yellow bell pepper from fridge
+Step: 52 Action: take yellow bell pepper from fridge
+Step: 53 Action: take yellow bell pepper from fridge
+Step: 54 Action: take orange bell pepper from fridge
+Step: 55 Action: take yellow bell pepper from fridge
+Step: 56 Action: take yellow bell pepper from fridge
+Step: 57 Action: take yellow bell pepper from fridge
+Step: 58 Action: take yellow bell pepper from fridge
+Step: 59 Action: take yellow bell pepper from fridge

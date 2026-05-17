@@ -1,0 +1,43 @@
+Step: 1 Action: take cookbook
+Step: 2 Action: examine cookbook
+Step: 3 Action: take purple potato
+Step: 4 Action: examine purple potato
+Step: 5 Action: take red hot pepper
+Step: 6 Action: examine red hot pepper
+Step: 7 Action: take knife
+Step: 8 Action: examine knife
+Step: 9 Action: chop purple potato with knife
+Step: 10 Action: fry purple potato with stove
+Step: 11 Action: take red hot pepper
+Step: 12 Action: dice red hot pepper with knife
+Step: 13 Action: roast red hot pepper with stove
+Step: 14 Action: prepare meal
+Step: 15 Action: fry purple potato with stove
+Step: 16 Action: examine purple potato
+Step: 17 Action: cook purple potato with stove
+Step: 18 Action: examine purple potato
+Step: 19 Action: PREPARE MEAL: prepare meal
+Step: 20 Action: take red hot pepper
+Step: 21 Action: dice red hot pepper with knife
+Step: 22 Action: prepare meal
+Step: 23 Action: prepare meal
+Step: 24 Action: prepare meal
+Step: 25 Action: prepare meal
+Step: 26 Action: prepare meal
+Step: 27 Action: PREPARE MEAL: prepare meal
+Step: 28 Action: TAKE purple potato: take purple potato
+Step: 29 Action: TAKE purple potato: take purple potato
+Step: 30 Action: take purple potato
+Step: 31 Action: dice red hot pepper with knife
+Step: 32 Action: chop purple potato with knife
+Step: 33 Action: fry purple potato
+Step: 34 Action: roast red hot pepper
+Step: 35 Action: prepare meal
+Step: 36 Action: roast red hot pepper
+Step: 37 Action: prepare meal
+Step: 38 Action: take purple potato
+Step: 39 Action: prepare meal
+Step: 40 Action: take knife
+Step: 41 Action: prepare meal
+Step: 42 Action: fry purple potato with stove
+Step: 43 Action: cook purple potato with stove

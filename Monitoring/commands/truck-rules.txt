@@ -1,0 +1,15 @@
+Packages should always be loaded only in area a1.
+Packages should always be loaded only in areas a1 or a2.
+Packages should always be loaded only in areas a1, a2, or a3.
+package2 should be delivered before package1 is delivered
+package3 should be delivered before package2 is delivered
+package5 should be delivered before package4 is delivered
+When loading a package in area a1, a1 must be free.
+When loading a package in area a2, a2 must be free.
+When loading a package in area a3, a3 must be free.
+When loading a package in area a2, a1 must be free.
+When loading a package in area a3, a1 must be free.
+When loading a package in area a3, a2 must be free.
+When unloading a package from area a2, a1 must be free.
+When unloading a package from area a3, a1 must be free.
+When unloading a package from area a3, a2 must be free.

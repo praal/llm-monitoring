@@ -1,0 +1,55 @@
+The Trucks Domain
+
+Essentially, this is a logistics domain about moving packages between
+locations by trucks under certain constraints. The loading space of each
+truck is organized by areas: a package can be (un)loaded onto an area of a
+truck only if the areas between the area under consideration and the truck
+door are free.
+
+The domain has four different actions: LOAD, UNLOAD, DRIVE, DELIVER: an action for loading a package
+into a truck, one for unloading a package from a truck, one for moving
+a truck, and finally one for delivering a package. The durations of
+loading, unloading and delivering packages are negligible with respect
+to the durations of the driving actions. The problem goals require that
+certain packages are at their final destinations by certain deadlines.
+
+Object Types:
+Trucks: Vehicles that transport packages between locations
+Packages: Items that need to be delivered to specific locations
+Locations: Places where trucks can be positioned and packages can be picked up or delivered
+Truck Areas: Storage spaces within a truck (some areas are closer to the truck exit than others)
+Time: Discrete time points for tracking when deliveries occur
+
+State Properties:
+Objects (trucks and packages) can be "at" specific locations
+Packages can be "in" a specific area of a truck
+Locations are "connected" to each other (defining valid routes)
+Truck areas can be "free" (empty) or occupied, if they are occupied you can't load packages in them.
+Packages can be marked as "delivered" at a specific location
+Truck areas have a "closer" relationship (some areas are closer to the exit)
+
+Description of Actions:
+
+LOAD: Load a package into a specific area of a truck
+Requirements:
+The truck and package must be at the same location
+The target area in the truck must be free
+All areas closer to the exit than the target area must also be free (packages must be loaded from back to front)
+Result: The package is removed from the location and placed in the specified truck area
+
+UNLOAD: Remove a package from a truck area and place it at the current location
+Requirements:
+The truck must be at a location
+The package must be in the specified truck area
+All areas closer to the exit must be free (packages must be unloaded front to back)
+Result: The package is removed from the truck and placed at the current location; the truck area becomes free
+
+DRIVE: Move a truck from one location to another, advancing time
+Requirements:
+The truck must be at the starting location
+The two locations must be connected
+Result: The truck moves to the destination location and time advances by one unit
+
+DELIVER: Complete the delivery of a package at its destination
+Requirements: The package must be at the delivery location
+Result: The package is marked as delivered at that location and time

@@ -1,0 +1,37 @@
+Step 1: look around
+ Step 2: go door to the hallway
+ Step 3: open door to the hallway
+ Step 4: go door to the hallway
+ Step 5: look around
+ Step 6: open door to the living room
+ Step 7: go door to the living room
+ Step 8: look around
+ Step 9: look around
+ Step 10: focus on thermometer
+ Step 11: look around
+ Step 12: look at unknown substance B
+ Step 13: inventory
+ Step 14: look around
+ Step 15: look at table
+ Step 16: look around
+ Step 17: look around
+ Step 18: look around
+ Step 19: look in book shelf
+ Step 20: look around
+ Step 21: look around
+ Step 22: focus on thermometer
+ Step 23: use thermometer on unknown substance B
+ Step 24: look around
+ Step 25: look around
+ Step 26: inventory
+ Step 27: look around
+ Step 28: look at table
+ Step 29: inventory
+ Step 30: look at couch
+ Step 31: look around
+ Step 32: look around
+ Step 33: look around
+ Step 34: focus on thermometer
+ Step 35: look at thermometer
+ Step 36: read thermometer
+ Step 37: focus on unknown substance B

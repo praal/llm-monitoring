@@ -1,0 +1,100 @@
+ Step 1: go door to the hallway
+ Step 2: look around
+ Step 3: go door to the hallway
+ Step 4: open door
+ Step 5: look around
+ Step 6: go door to the hallway
+ Step 7: go living room
+ Step 8: look around
+ Step 9: go door to the living room
+ Step 10: look around
+ Step 11: open door to the living room
+ Step 12: look around
+ Step 13: go door to the living room
+ Step 14: look around
+ Step 15: go to the hallway
+ Step 16: look around
+ Step 17: go to the living room
+ Step 18: look around
+ Step 19: look around
+ Step 20: go door to the hallway
+ Step 21: go living room
+ Step 22: look around
+ Step 23: go door to the hallway
+ Step 24: go living room
+ Step 25: look around
+ Step 26: inventory
+ Step 27: focus on thermometer
+ Step 28: focus on thermometer
+ Step 29: look around
+ Step 30: look around
+ Step 31: go door to the hallway
+ Step 32: go living room
+ Step 33: look around
+ Step 34: go to the hallway
+ Step 35: go living room
+ Step 36: look around
+ Step 37: inventory
+ Step 38: look around
+ Step 39: look around
+ Step 40: go to the hallway
+ Step 41: go living room
+ Step 42: look around
+ Step 43: look around
+ Step 44: go to the hallway
+ Step 45: look around
+ Step 46: go door to the living room
+ Step 47: look around
+ Step 48: inventory
+ Step 49: focus on thermometer
+ Step 50: focus on thermometer
+ Step 51: focus on thermometer
+ Step 52: focus on thermometer
+ Step 53: focus on thermometer
+ Step 54: focus on thermometer
+ Step 55: look around
+ Step 56: go hallway
+ Step 57: go living room
+ Step 58: look around
+ Step 59: inventory
+ Step 60: focus on thermometer
+ Step 61: focus on thermometer
+ Step 62: look around
+ Step 63: look around
+ Step 64: inventory
+ Step 65: look around
+ Step 66: inventory
+ Step 67: look around
+ Step 68: go to the hallway
+ Step 69: go living room
+ Step 70: look around
+ Step 71: go to the hallway
+ Step 72: look around
+ Step 73: go to the living room
+ Step 74: look around
+ Step 75: inventory
+ Step 76: look around
+ Step 77: go door to the hallway
+ Step 78: look around
+ Step 79: go to the living room
+ Step 80: look around
+ Step 81: go to the hallway
+ Step 82: go living room
+ Step 83: look around
+ Step 84: inventory
+ Step 85: look around
+ Step 86: inventory
+ Step 87: look around
+ Step 88: look around
+ Step 89: inventory
+ Step 90: look around
+ Step 91: inventory
+ Step 92: look around
+ Step 93: look around
+ Step 94: look around
+ Step 95: go hallway
+ Step 96: go living room
+ Step 97: look around
+ Step 98: look around
+ Step 99: inventory
+ Step 100: look around

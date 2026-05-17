@@ -1,0 +1,75 @@
+1. *DRIVE truck1 from l3 to-l1 (Time: 1)
+2. *LOAD package1 into truck1 area a1 at l1
+3. *LOAD package6 into truck1 area a2 at l1
+4. *DRIVE truck1 from l1 to-l3 (Time: 2)
+5. *UNLOAD package6 from truck1 area a2 at l3
+6. *DELIVER package6 at l3 (Time: 2)
+7. *UNLOAD package1 from truck1 area a1 at l3
+8. *DELIVER package1 at l3 (Time: 2)
+9. *DRIVE truck1 from l3 to-l1 (Time: 3)
+10. *LOAD package2 into truck1 area a1 at l1
+11. *LOAD package3 into truck1 area a2 at l1
+12. *LOAD package5 into truck1 area a3 at l1
+13. *LOAD package7 into truck1 area a4 at l1
+14. *DRIVE truck1 from l1 to-l2 (Time: 4)
+15. *UNLOAD package2 from truck1 area a1 at l2
+16. *DELIVER package2 at l2 (Time: 4)
+17. *UNLOAD package3 from truck1 area a2 at l2
+18. *DELIVER package3 at l2 (Time: 4)
+19. *UNLOAD package5 from truck1 area a3 at l2
+20. *DELIVER package5 at l2 (Time: 4)
+21. *UNLOAD package7 from truck1 area a4 at l2
+22. *DELIVER package7 at l2 (Time: 4)
+23. *DRIVE truck1 from l2 to-l1 (Time: 5)
+24. *LOAD package8 into truck1 area a1 at l1
+25. *LOAD package16 into truck1 area a2 at l1
+26. *LOAD package17 into truck1 area a3 at l1
+27. *LOAD package18 into truck1 area a4 at l1
+28. *DRIVE truck1 from l1 to-l2 (Time: 6)
+29. *UNLOAD package8 from truck1 area a1 at l2
+30. *DELIVER package8 at l2 (Time: 6)
+31. *UNLOAD package16 from truck1 area a2 at l2
+32. *DELIVER package16 at l2 (Time: 6)
+33. *UNLOAD package17 from truck1 area a3 at l2
+34. *DELIVER package17 at l2 (Time: 6)
+35. *UNLOAD package18 from truck1 area a4 at l2
+36. *DELIVER package18 at l2 (Time: 6)
+37. *DRIVE truck1 from l2 to-l1 (Time: 7)
+38. *LOAD package4 into truck1 area a1 at l1
+39. *LOAD package11 into truck1 area a2 at l1
+40. *LOAD package12 into truck1 area a3 at l1
+41. *LOAD package13 into truck1 area a4 at l1
+42. *DRIVE truck1 from l1 to-l4 (Time: 8)
+43. *UNLOAD package4 from truck1 area a1 at l4
+44. *DELIVER package4 at l4 (Time: 8)
+45. *UNLOAD package11 from truck1 area a2 at l4
+46. *DELIVER package11 at l4 (Time: 8)
+47. *UNLOAD package12 from truck1 area a3 at l4
+48. *DELIVER package12 at l4 (Time: 8)
+49. *UNLOAD package13 from truck1 area a4 at l4
+50. *DELIVER package13 at l4 (Time: 8)
+51. *DRIVE truck1 from l4 to-l1 (Time: 9)
+52. *LOAD package19 into truck1 area a1 at l1
+53. *LOAD package20 into truck1 area a2 at l1
+54. *DRIVE truck1 from l1 to-l4 (Time: 10)
+55. *UNLOAD package19 from truck1 area a1 at l4
+56. *DELIVER package19 at l4 (Time: 10)
+57. *DRIVE truck1 from l4 to-l2 (Time: 11)
+58. *UNLOAD package20 from truck1 area a2 at l2
+59. *DELIVER package20 at l2 (Time: 11)
+60. *DRIVE truck1 from l2 to-l1 (Time: 12)
+61. *LOAD package9 into truck1 area a1 at l1
+62. *LOAD package10 into truck1 area a2 at l1
+63. *DRIVE truck1 from l1 to-l3 (Time: 13)
+64. *UNLOAD package9 from truck1 area a1 at l3
+65. *DELIVER package9 at l3 (Time: 13)
+66. *UNLOAD package10 from truck1 area a2 at l3
+67. *DELIVER package10 at l3 (Time: 13)
+68. *DRIVE truck1 from l3 to-l1 (Time: 14)
+69. *LOAD package14 into truck1 area a1 at l1
+70. *LOAD package15 into truck1 area a2 at l1
+71. *DRIVE truck1 from l1 to-l5 (Time: 15)
+72. *UNLOAD package14 from truck1 area a1 at l5
+73. *DELIVER package14 at l5 (Time: 15)
+74. *UNLOAD package15 from truck1 area a2 at l5
+75. *DELIVER package15 at l5 (Time: 15)

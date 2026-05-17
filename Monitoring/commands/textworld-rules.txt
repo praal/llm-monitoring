@@ -1,0 +1,4 @@
+Rule 1: If you take an item, you have to examine it in the next step.
+Rule 2: Take the knife if you will use it to chop, slice, or dice something within the next four steps. If the knife is taken and none of these actions occur by the fourth next step, nor the knife was put back by the fourth step, then the knife was taken unnecessarily and a violation must be reported at that step (not earlier).
+Rule 3: Do not drop things.
+Rule 4: Do not go out of the kitchen. This means you should not use an action that go in some directions. Every go action goes out of kitchen.
